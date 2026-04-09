@@ -1,0 +1,10 @@
+openai-whisper
+sounddevice
+scipy
+numpy
+requests
+kokoro-onnx
+soundfile
+pyaudio
+huggingface_hub
+python-dotenv

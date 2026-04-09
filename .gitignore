@@ -1,0 +1,353 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+.ENV
+.env
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model Files
+*.onnx
+*.bin
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.gguf
+*.ggml
+models/
+checkpoints/
+weights/
+voices.bin
+kokoro-v0_19.onnx
+
+# Whisper Models
+*.pt
+medium.pt
+large.pt
+base.pt
+small.pt
+tiny.pt
+
+# Ollama
+.ollama/
+ollama-models/
+
+# Audio Files
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+*.wma
+temp_*.wav
+test_audio.wav
+recordings/
+audio_cache/
+
+# Logs
+*.log
+logs/
+*.log.*
+log.txt
+debug.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+memory.db
+conversation.db
+
+# Configuration with secrets
+config.local.yaml
+secrets.yaml
+.env.local
+.env.production
+credentials.json
+api_keys.txt
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDE - VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# IDE - PyCharm
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE - Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+sftp-config-alt*.json
+
+# IDE - Vim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessio.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Google Antigravity
+.antigravity/
+antigravity-workspace/
+
+# Cache directories
+.cache/
+cache/
+__cache__/
+.temp/
+temp/
+tmp/
+*.tmp
+*.temp
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Package files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+site/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Secrets and credentials
+*.key
+*.pem
+*.crt
+*.p12
+api_key.txt
+secret.txt
+
+# User data
+user_data/
+personal/
+private/
+
+# Hugging Face cache
+.huggingface/
+huggingface_cache/
+
+# FFmpeg
+ffmpeg/
+ffmpeg.exe
+ffprobe.exe
+
+# Node modules (if any JS tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Memory and session data
+memory/
+sessions/
+conversation_history/
+*.session
+
+# Performance profiling
+*.prof
+*.lprof
+*.pstats
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/*.png
+!docs/*.jpg
+!assets/*.png
+!assets/*.jpg
+
+# Custom coco files
+coco_memory.db
+coco_sessions/
+coco_logs/
