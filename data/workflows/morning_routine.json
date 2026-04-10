@@ -1,0 +1,32 @@
+{
+  "name": "morning_routine",
+  "description": "Open essential apps for the day",
+  "steps": [
+    {
+      "intent": "browser.open_website",
+      "parameters": {
+        "url": "gmail.com"
+      },
+      "description": "Open email",
+      "delay": 0
+    },
+    {
+      "intent": "browser.open_website",
+      "parameters": {
+        "url": "calendar.google.com"
+      },
+      "description": "Open calendar",
+      "delay": 2
+    },
+    {
+      "intent": "system.open_app",
+      "parameters": {
+        "app": "notepad"
+      },
+      "description": "Open notepad for notes",
+      "delay": 1
+    }
+  ],
+  "created_at": "2026-04-10T10:54:21.700083",
+  "version": "1.0"
+}

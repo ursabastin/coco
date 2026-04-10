@@ -351,3 +351,12 @@ screenshots/
 coco_memory.db
 coco_sessions/
 coco_logs/
+
+# Coco Temp Folders
+.coco_browser_temp/
+.coco_chrome_temp/
+chrome-temp/
+.temp/
+temp_*.wav
+temp_*.png
+test_screenshot.png
